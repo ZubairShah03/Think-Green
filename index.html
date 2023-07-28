@@ -215,6 +215,77 @@
           </tbody>
         </table>
       </section>
+
+      <!-- Interests Form -->
+
+      <section class="interests">
+        <!-- Left Div for form -->
+        <div class="interestsLeft">
+          <form action="#">
+            <h2>Fill Your Interests</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              quam.
+            </p>
+            <label for="name"
+              >Name
+              <input type="text" name="name" id="name" />
+            </label>
+            <label for="email"
+              >Email
+              <input type="email" name="email" id="email" />
+            </label>
+            <label for="dob"
+              >DOB
+              <input type="date" name="dob" id="dob" />
+            </label>
+            <label for="select"
+              >Select your Interests
+              <select name="select" id="select" required>
+                <option value="" disabled selected>-select-</option>
+                <option value="Programming">Programming</option>
+                <option value="Gaming">Gaming</option>
+                <option value="Cubing">Cubing</option>
+              </select>
+            </label>
+            <div class="checkboxDiv">
+              <label class="checkbox" for="individual">
+                <input
+                  class="checkboxInput"
+                  type="checkbox"
+                  name="individual"
+                  id="individual"
+                />
+                Individual
+              </label>
+              <label class="checkbox" for="organization">
+                <input
+                  class="checkboxInput"
+                  type="checkbox"
+                  name="organization"
+                  id="organization"
+                />
+                organization
+              </label>
+            </div>
+            <label for="aboutYou"
+              >About You
+              <textarea
+                name="aboutYou"
+                id="aboutYou"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+            <button type="submit">Send Details</button>
+          </form>
+        </div>
+        <!-- Right div for image -->
+        <div class="interestsRight">
+          <h1>Right Div</h1>
+          <img src="./images/contactus.jpg" alt="" />
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
