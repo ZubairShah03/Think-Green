@@ -382,3 +382,31 @@ form button{
   font-size: 14px;
   font-weight: lighter;
 }
+
+/* Contact Us Section Styles */
+.contact{
+  background-color: rgb(243, 243, 243);
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13%;
+}
+
+.contact h2{
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.contact p{
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-bottom: 3px;
+}
+
+.contact a{
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgb(2, 176, 199);
+}
