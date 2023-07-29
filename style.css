@@ -357,6 +357,28 @@ form button{
   width: 50vw;
 }
 
-.interestsRight img {
-  width: 400px;
+.points{
+  background-color: rgb(240, 240, 240);
+  border-radius: 7px;
+  width: 100%;
+  height: 470px;
+  padding: 15px;
+  position: relative;
+  top: 85px;
+}
+
+.points img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.points p{
+  font-size: 13px;
+  margin: 9px 0;
+}
+
+.pointsHeading{
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: lighter;
 }
